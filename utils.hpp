@@ -6,6 +6,8 @@
 #include <vector>
 #include <iterator>
 
+using u64 = __UINT64_TYPE__;
+
 template <typename Out>
 void split(const std::string &s, char delim, Out result) {
     std::istringstream iss(s);
